@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contactStyle.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><span class="logo">🍵 Tripp<span class="cafe">y Cafe</span> </span></a>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="image.html">Image</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+        </nav>
+        <h1 class="intro">Wel Come to Trippy cafe contact 🍵 </h1>
+    </header>
+
+    <div class="desc">
+        <div class="contactTitle">
+            <h1>Say Hello</h1>
+            <h2>We are always ready to serve you!</h2>
+        </div>
+    
+        <div class="contactForm">
+            <form id="contact-form" method="post" action="contactForm.php">
+                <input name="name" type="text" class="formControl" placeholder="Name" required >
+    
+                <br>
+    
+                <input name="email" type="email" class="formControl" placeholder="Email" required >
+    
+                <br >
+    
+                <textarea name="message" class="formControl" placeholder="Message" rows="4"></textarea>
+    
+                <br >
+    
+                <input type="submit" class="formControl submit" value="SEND MESSAGE">
+    
+            </form>
+        </div>
+    
+
+
+    </div>
+
+    <div class="footer">
+        <div class="footerDiv">
+
+            <div class="col-1">
+                <h3>Useful links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="image.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+
+            <div class="col-2">
+                <h2>Trippy Cafe 🍵</h2>
+            </div>
+
+
+            <div class="col-3">
+                <h3>Contact</h3>
+                <a href="https://facebook.com/"><i class="fab fa-facebook icon"></i></a>
+                <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <p class="copy">Copyright 1999-2023 by Mohamed Infath. All Rights Reserved.</p>
+    </div>
+
+    <script type="text/javascript">
+
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black')
+            }
+        })
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="contactStyle.css">
+    
+</head>
+
+<body>
+    <div class="contactTitle">
+        <h1>Say Hello</h1>
+        <h2>We are always ready to serve you!</h2>
+    </div>
+
+    <div class="contactForm">
+        <form id="contact-form" method="post" action="contactForm.php">
+            <input name="name" type="text" class="formControl" placeholder="Name" required >
+
+            <br>
+
+            <input name="email" type="email" class="formControl" placeholder="Email" required >
+
+            <br >
+
+            <textarea name="message" class="formControl" placeholder="Message" rows="4"></textarea>
+
+            <br >
+
+            <input type="submit" class="formControl submit" value="SEND MESSAGE">
+
+        </form>
+    </div>
+
+</body>
+
+</html> -->

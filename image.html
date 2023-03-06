@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="image.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <link rel="stylesheet" type="text/css" href="lightbox.min.css" >
+    <link type="text/javascript" src="lightbox-plus-jquery.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logoClass"><span class="logo">🍵 Tripp<span class="cafe">y Cafe</span> </span></a>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="image.html">Image</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+        </nav>
+        <h1 class="intro">Wel Come to Trippy cafe image 🍵 </h1>
+    </header>
+
+    <div class="desc">
+
+        <h1>Start a day with Sweet cup of tea</h1>
+
+        <div class="gallery">
+            <a href="images/c1.jpg" data-lightbox="mygallery"><img src="images/c1-small.jpg"></a>
+            <a href="images/c2.jpeg" data-lightbox="mygallery" ><img src="images/c2.jpeg"></a>
+            <a href="images/c3.jpeg" data-lightbox="mygallery"><img src="images/c3.jpeg"></a>
+            <a href="images/c4.jpeg" data-lightbox="mygallery"><img src="images/c4.jpeg"></a>
+            <a href="images/c5.jpeg" data-lightbox="mygallery"><img src="images/c5.jpeg"></a>
+            <a href="images/c6.jpeg" data-lightbox="mygallery"><img src="images/c6.jpeg"></a>
+            <a href="images/c7.jpeg" data-lightbox="mygallery"><img src="images/c7.jpeg"></a>
+            <a href="images/c8.jpeg" data-lightbox="mygallery"><img src="images/c8.jpeg"></a>
+            <a href="images/c8.jpeg" data-lightbox="mygallery"><img src="images/c8.jpeg"></a>
+            <a href="images/c1.jpg" data-lightbox="mygallery"><img src="images/c1.jpg"></a>
+            <a href="images/c2.jpeg" data-lightbox="mygallery"><img src="images/c2.jpeg"></a>
+            <a href="images/c3.jpeg" data-lightbox="mygallery"><img src="images/c3.jpeg"></a>
+            <a href="images/c4.jpeg" data-lightbox="mygallery"><img src="images/c4.jpeg"></a>
+            <a href="images/c5.jpeg" data-lightbox="mygallery"><img src="images/c6.jpeg"></a>
+            <a href="images/c7.jpeg" data-lightbox="mygallery"><img src="images/c7.jpeg"></a>
+            <a href="images/c8.jpeg" data-lightbox="mygallery"><img src="images/c8.jpeg"></a>
+            <a href="images/c5.jpeg" data-lightbox="mygallery"><img src="images/c5.jpeg"></a>
+            <a href="images/c6.jpeg" data-lightbox="mygallery"><img src="images/c6.jpeg"></a>
+            <a href="images/c7.jpeg" data-lightbox="mygallery"><img src="images/c7.jpeg"></a>
+            <a href="images/c8.jpeg" data-lightbox="mygallery"><img src="images/c8.jpeg"></a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footerDiv">
+
+            <div class="col-1">
+                <h3>Useful links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="image.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+
+            <div class="col-2">
+                <h2>Trippy Cafe 🍵</h2>
+            </div>
+
+
+            <div class="col-3">
+                <h3>Contact</h3>
+                <a href="https://facebook.com/"><i class="fab fa-facebook icon"></i></a>
+                <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <p class="copy">Copyright 1999-2023 by Mohamed Infath. All Rights Reserved.</p>
+    </div>
+
+    <script type="text/javascript">
+
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black')
+            }
+        })
+    </script>
+</body>
+
+</html>
